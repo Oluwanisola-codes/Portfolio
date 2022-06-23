@@ -1,60 +1,54 @@
-:root{
+:root {
     --green: rgb(55, 224, 55);
-    --white:rgb(255, 255, 255);
-    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    --white: rgb(255, 255, 255);
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
 }
-*{
-font-family: arial;
+
+* {
+    font-family: arial;
     outline: none;
     text-decoration: none;
     padding: 0;
     margin: 0;
-   
 }
 
-html{
+html {
     font-size: 52.5%;
     overflow-x: hidden;
 }
 
-
-header{
-margin-left: 10rem;
+header {
+    margin-left: 10rem;
     color: black;
     display: flex;
-   align-items: center;
-   padding: 2rem;
-   gap: 20rem;
-  
-   
+    align-items: center;
+    padding: 2rem;
+    gap: 20rem;
 }
 
-header img{
-    width: 100px;
+header img {
+    width: auto;
     height: 60px;
-   
 }
-header p{
-  
-}
-.nav{
+
+header p {}
+
+.nav {
     font-size: 14px;
-display: flex;
-gap: 1.6rem;
-   
+    display: flex;
+    gap: 1.6rem;
 }
 
 .nav a {
     color: var(--green);
-   
-}
-.nav a:hover {
-    color: orange
-   
 }
 
-.redbtn{
-    background-color:orange;
+.nav a:hover {
+    color: orange;
+}
+
+.redbtn {
+    background-color: orange;
     width: 60%;
     height: auto;
     padding: 6px 6px;
@@ -63,7 +57,8 @@ gap: 1.6rem;
     font-size: 14px;
     border-radius: 10px;
 }
-.btnn{
+
+.btnn {
     background-color: white;
     border-radius: 12px;
     border: 1px solid orange;
@@ -73,15 +68,17 @@ gap: 1.6rem;
     width: 40px;
     height: auto;
     padding: 1rem;
-    
 }
-.btnn:hover{
+
+.btnn:hover {
     background-color: orange;
 }
-.btnnn{
+
+.btnnn {
     margin-top: 4rem;
 }
-.nav1{
+
+.nav1 {
     width: auto;
     height: auto;
     border: 1px solid var(--green);
@@ -90,27 +87,31 @@ gap: 1.6rem;
     color: black;
     padding: 1rem;
 }
-.about{
+
+.about {
     text-align: center;
     margin-left: 10rem;
     margin-top: 12rem;
     box-shadow: none;
     border: none;
 }
-.about h4{
+
+.about h4 {
     font-size: 32px;
     color: var(--green);
 }
-.about p{
+
+.about p {
     font-size: 16px;
     color: orange;
 }
 
-#insert{
+#insert {
     width: 40px;
     height: 10px;
 }
-#search{
+
+#search {
     text-decoration: none;
     border: none;
     background-color: transparent;
@@ -118,98 +119,103 @@ gap: 1.6rem;
     outline: none;
 }
 
-.sidebox{
+.sidebox {
     background-color: var(--green);
     width: 300px;
     height: 340px;
     float: right;
     margin-top: -10rem;
-   border-bottom-left-radius: 80rem;
-   border-top-left-radius: 100rem;
-
-   
+    border-bottom-left-radius: 80rem;
+    border-top-left-radius: 100rem;
 }
-.food{
+
+.food {
     display: flex;
     gap: 10rem;
     margin-inline: 8rem;
     margin-top: 8rem;
 }
-.food1{
+
+.food1 {
     display: flex;
     flex-direction: column;
     font-size: 40px;
     color: orange;
     font-family: arial;
 }
-.food1 span{
-   color: var(--green);
+
+.food1 span {
+    color: var(--green);
 }
-.food1 p{
+
+.food1 p {
     font-size: 16px;
     color: orange;
     margin-top: 4rem;
     font-weight: bold;
 }
-.foodimg img{
+
+.foodimg img {
     width: 300px;
     height: 300px;
     margin-left: 20rem;
     margin-top: -10rem;
 }
-.section2{
+
+.section2 {
     display: flex;
     align-items: center;
     margin-inline: 10rem;
     background-color: white;
-    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
     border-radius: 10rem;
     padding: 2rem;
     gap: 4rem;
     justify-content: space-evenly;
+}
 
+.aa h4 {
+    font-size: 16px;
+    color: orange;
+}
 
-}
-.aa{
-    display: flex;
-    flex-direction: column;
-    margin-left: 6rem;
-}
-.aa h4{
-font-size: 16px;
-color: orange;
-}
-.aa p{
+.aa p {
     font-size: 14px;
     color: var(--green);
 }
-h6{
-font-size: 12px;
-margin-right: -4rem;
+
+h6 {
+    font-size: 12px;
+    margin-right: -4rem;
 }
-.bbtn{
+
+.bbtn {
     background-color: white;
     width: auto;
     padding: 1rem;
     border: 1px solid var(--green);
     border-radius: 2rem;
 }
-.hh h2{
+
+
+.hh h2 {
     font-size: 30px;
     color: var(--green);
     margin-top: 4rem;
-    margin-left: 40rem;
+    text-align: center;
 }
-.hh span{
+
+.hh span {
     color: orange;
-   
 }
-.hh p{
+
+.hh p {
     color: black;
     font-size: 16px;
     margin-inline: 6rem;
 }
-.section3{
+
+.section3 {
     display: flex;
     justify-content: space-evenly;
     gap: 8px;
@@ -217,33 +223,38 @@ margin-right: -4rem;
     margin-top: 4rem;
     margin-left: 8rem;
 }
-.menu1{
+
+.menu1 {
     background-color: white;
     color: var(--black);
     width: 200px;
     height: 300px;
     position: relative;
     box-shadow: var(--box-shadow);
-    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
     padding: 8px 8px;
     text-align: center;
-   
 }
-.menu1 h4{
+
+.menu1 h4 {
     font-size: 20px;
 }
-.menu1 p{
+
+.menu1 p {
     color: rgb(129, 126, 126);
     font-size: 16px;
 }
-.menu1 img{
+
+.menu1 img {
     width: 174px;
     height: 300px;
 }
-.menu1 a{
-font-size: 16px;
+
+.menu1 a {
+    font-size: 16px;
 }
-.btn{
+
+.btn {
     margin-top: 9rem;
     width: 100%;
     height: auto;
@@ -253,79 +264,93 @@ font-size: 16px;
     color: white;
     text-decoration: none;
 }
-h3{
-    font-size:30px;
+
+h3 {
+    font-size: 30px;
     color: var(--black);
 }
-h3 span{
+
+h3 span {
     color: var(--red);
 }
 
-.product1{
+.product1 {
     background-color: white;
     color: var(--black);
     width: 200px;
     height: 260px;
     position: relative;
     box-shadow: var(--box-shadow);
-    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
     padding: 8px 8px;
     text-align: center;
 }
-.prod11{
+
+.prod11 {
     float: left;
 }
-.product1 span{
-    background-color:orange;
+
+.product1 span {
+    background-color: orange;
     font-size: 16px;
 }
-.product1 img{
+
+.product1 img {
     width: 210px;
     height: 200px;
 }
-.product1 h4{
+
+.product1 h4 {
     font-size: 22px;
 }
-.product1 p{
+
+.product1 p {
     font-size: 16px;
 }
-#box{
+
+#box {
     width: 60px;
     height: 5px;
     background-color: white;
     color: black;
     text-align: left;
 }
-.product1 a{
+
+.product1 a {
     font-size: 16px;
 }
 
-footer{
+footer {
     background-color: var(--green);
     width: 100%;
     height: 400px;
-margin-top: 4rem;
-position: relative;
-display: flex;
-gap: 1rem;
+    margin-top: 4rem;
+    position: relative;
+    display: flex;
+    gap: 1rem;
 }
-footer p{
+
+footer p {
     font-size: 16px;
     color: white;
 }
-footer img{
+
+footer img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
 }
-.nizzle{
+
+.nizzle {
     margin-inline: 4rem;
 }
-.nizzle span{
+
+.nizzle span {
     color: orange;
     font-weight: bold;
 }
-.container{
+
+.container {
     width: 700px;
     height: 400px;
     background-color: var(--green);
@@ -333,11 +358,13 @@ footer img{
     left: 20%;
     margin-top: -10rem;
 }
-.nizzles{
+
+.nizzles {
     display: flex;
     flex-direction: column;
 }
-.container2{
+
+.container2 {
     background-color: rgb(6, 177, 6);
     width: 92%;
     position: absolute;
@@ -345,23 +372,26 @@ footer img{
     height: 300px;
     left: 5%;
     right: 5%;
-   
 }
-.command{
+
+.command {
     display: flex;
     gap: 4rem;
     margin-top: 22rem;
     margin-left: 2rem;
 }
-.foot1 h4{
+
+.foot1 h4 {
     font-size: 18px;
     color: black;
 }
-.foot1 p{
+
+.foot1 p {
     font-size: 14px;
     color: white;
 }
-#email{
+
+#email {
     width: 100px;
     height: 30px;
     border: 1px solid black;
@@ -369,7 +399,8 @@ footer img{
     margin-bottom: 1.2rem;
     padding: 2px;
 }
-.nextt{
+
+.nextt {
     font-size: 14px;
     width: 100px;
     height: 20px;
@@ -379,7 +410,8 @@ footer img{
     text-align: center;
     text-decoration: none;
 }
-.container1{
+
+.container1 {
     background-color: rgb(252, 249, 249);
     display: flex;
     color: black;
@@ -390,34 +422,37 @@ footer img{
     left: 10%;
     top: 4rem;
     gap: 4rem;
-    
 }
-.taste{
-    margin-top:40px;
+
+.taste {
+    margin-top: 40px;
     padding: 1rem;
 }
-.taste h4{
+
+.taste h4 {
     color: black;
     font-size: 22px;
-   padding: 1rem;
+    padding: 1rem;
 }
-.taste p{
+
+.taste p {
     font-size: 14px;
     padding: 1.2rem;
 }
-.taste .redbtn{
-margin-left: 1rem;
+
+.taste .redbtn {
+    margin-left: 1rem;
 }
-.conimg img{
+
+.conimg img {
     width: 200px;
     height: 200px;
 }
-.conimg{
-    
-}
+
+.conimg {}
 
 @media screen and (max-width: 600px) {
-    header{
+    header {
         padding: 10px 10px;
         width: auto;
         height: auto;
@@ -428,145 +463,154 @@ margin-left: 1rem;
         align-content: center;
     }
 
-    body{
-   width: 100%;
-}
-    
-    header img{
-        width: 80px;
+
+    header img {
+        width: auto;
         height: 40px;
     }
-    .nav{
-        gap: 2px;
+
+    .nav {
+        gap: 12px;
         font-size: 14px;
         margin-left: 80px;
         display: flex;
-        flex-direction: column;
+        justify-content: space-around;
     }
-    
+
     .nav a {
         color: black;
     }
-    
-    .redbtn{
+
+    .redbtn {
         background-color: rgb(55, 224, 55);
-        width: 100px;
+        width: auto;
         height: auto;
         padding: 4px 4px;
         text-align: center;
         color: white;
         font-size: 14px;
     }
-    
-    .foodimg img{
+
+    .foodimg img {
         margin-left: 0;
         margin-top: 5px;
     }
 
-    .nav1{
-        width: 68%;
+    .nav1 {
+        width: auto;
         height: 10%;
         border: 4px solid var(--green);
         border-radius: 10px 10px;
         background-color: white;
         color: black;
     }
-    .food{
+
+    .food {
         flex-direction: column;
         gap: 10rem;
         margin-inline: 8rem;
         margin-top: 8rem;
     }
 
-    .section2{
+    .section2 {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-inline: 10rem;
         background-color: white;
-        box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+        box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
         border-radius: 10rem;
         padding: 2rem;
         gap: 4rem;
         width: auto;
     }
 
-    .section3{
+    .section3 {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-inline: 10rem;
         background-color: white;
-        box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+        box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
         border-radius: 10rem;
         padding: 2rem;
         gap: 4rem;
     }
 
-    footer{
-        background-color:orange;
-        width: 100%;
-        height: 400px;
-    margin-top: 20rem;
-    position: relative;
-    display: flex;
-    flex-direction: column;
+    footer {
+        background-color: orange;
+        width: auto;
+        height: auto;
+        padding-top: 4rem;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        padding-bottom: 40px;
     }
-    .container{
-        width: 80%;
+
+    .container {
+        width: auto;
         height: 50%;
         background-color: var(--green);
         position: absolute;
         left: 20%;
         margin-top: -10rem;
     }
-    .container2{
+
+    .container2 {
         background-color: rgb(6, 177, 6);
-        width: 92%;
+        width: auto;
         position: absolute;
         top: 8rem;
         height: 300px;
         left: 5%;
         right: 5%;
-       
     }
-    .command{
+
+    .command {
         display: flex;
         flex-direction: row;
         gap: 4rem;
         margin-top: 22rem;
         margin-left: 2rem;
     }
-    .foot1 h4{
+
+    .foot1 h4 {
         font-size: 18px;
         color: black;
     }
-    .foot1 p{
+
+    .foot1 p {
         font-size: 14px;
         color: white;
     }
-    .food1 h4{
+
+    .food1 h4 {
         font-size: 1px;
         color: black;
     }
+
     .food1 {
-    display: flex;
-    flex-direction: column;
-    font-size: 40px;
-    color: orange;
-    font-family: arial;
-}
-    #email{
-        width: 100px;
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+        color: orange;
+        font-family: arial;
+    }
+
+    #email {
+        width: auto;
         height: 30px;
         border: 1px solid black;
         margin-top: 1.2rem;
         margin-bottom: 1.2rem;
         padding: 2px;
     }
-    .nextt{
+
+    .nextt {
         font-size: 14px;
-        width: 100px;
+        width: auto;
         height: 20px;
         padding: 2px 2px;
         color: white;
@@ -574,44 +618,58 @@ margin-left: 1rem;
         text-align: center;
         text-decoration: none;
     }
-    .container1{
+
+    .container1 {
         background-color: rgb(252, 249, 249);
         display: flex;
         color: black;
-        width: 550px;
+        width: auto;
         height: 200px;
         border-radius: 10px 10px;
         position: absolute;
         left: 10%;
         top: 4rem;
         gap: 4rem;
-        
     }
-    .taste{
-        margin-top:40px;
+
+    .taste {
+        margin-top: 40px;
         padding: 1rem;
     }
-    .taste h4{
+
+    .taste h4 {
         color: black;
         font-size: 22px;
-       padding: 1rem;
+        padding: 1rem;
     }
-    .taste p{
+
+    .taste p {
         font-size: 14px;
         padding: 1.2rem;
     }
-    .taste .redbtn{
-    margin-left: 1rem;
-    }
-    .conimg img{
-        width: 200px;
-        height: 200px;
-    }
-    .conimg{
-        
+
+    .taste .redbtn {
+        margin-left: 1rem;
     }
 
+    .conimg img {
+        width: auto;
+        height: 200px;
+    }
+
+    .conimg {}
+
     .sidebox {
-    display: none;
-}
+        display: none;
+    }
+
+    .aa h4 {
+        font-size: 40px;
+        color: orange;
+    }
+
+    .aa p {
+        font-size: 30px;
+        color: var(--green);
+    }
 }
