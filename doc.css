@@ -1,0 +1,584 @@
+:root{
+    --green: rgb(55, 224, 55);
+    --white:rgb(255, 255, 255);
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+}
+*{
+font-family: arial;
+    outline: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+   
+}
+body{
+   
+   
+}
+html{
+    font-size: 52.5%;
+    overflow-x: hidden;
+}
+
+
+header{
+margin-left: 10rem;
+    color: black;
+    display: flex;
+   align-items: center;
+   padding: 2rem;
+   gap: 20rem;
+  
+   
+}
+
+header img{
+    width: 100px;
+    height: 60px;
+   
+}
+header p{
+  
+}
+.nav{
+    font-size: 14px;
+display: flex;
+gap: 1.6rem;
+   
+}
+
+.nav a {
+    color: var(--green);
+   
+}
+.nav a:hover {
+    color: orange
+   
+}
+
+.redbtn{
+    background-color:orange;
+    width: 60%;
+    height: auto;
+    padding: 6px 6px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+}
+.btnn{
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid orange;
+    color: var(--green);
+    text-align: center;
+    font-size: 10px;
+    width: 40px;
+    height: auto;
+    padding: 1rem;
+    
+}
+.btnn:hover{
+    background-color: orange;
+}
+.btnnn{
+    margin-top: 4rem;
+}
+.nav1{
+    width: auto;
+    height: auto;
+    border: 1px solid var(--green);
+    border-radius: 2rem;
+    background-color: white;
+    color: black;
+    padding: 1rem;
+}
+.about{
+    text-align: center;
+    margin-left: 10rem;
+    margin-top: 12rem;
+    box-shadow: none;
+    border: none;
+}
+.about h4{
+    font-size: 32px;
+    color: var(--green);
+}
+.about p{
+    font-size: 16px;
+    color: orange;
+}
+
+#insert{
+    width: 40px;
+    height: 10px;
+}
+#search{
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+}
+
+.sidebox{
+    background-color: var(--green);
+    width: 300px;
+    height: 340px;
+    float: right;
+    margin-top: -10rem;
+   border-bottom-left-radius: 80rem;
+   border-top-left-radius: 100rem;
+
+   
+}
+.food{
+    display: flex;
+    gap: 10rem;
+    margin-inline: 8rem;
+    margin-top: 8rem;
+}
+.food1{
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    color: orange;
+    font-family: arial;
+}
+.food1 span{
+   color: var(--green);
+}
+.food1 p{
+    font-size: 16px;
+    color: orange;
+    margin-top: 4rem;
+    font-weight: bold;
+}
+.foodimg img{
+    width: 300px;
+    height: 300px;
+    margin-left: 20rem;
+    margin-top: -10rem;
+}
+.section2{
+    display: flex;
+    align-items: center;
+    margin-inline: 10rem;
+    background-color: white;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    border-radius: 10rem;
+    padding: 2rem;
+    gap: 4rem;
+    
+ 
+}
+.aa{
+    display: flex;
+    flex-direction: column;
+    margin-left: 6rem;
+}
+.aa h4{
+font-size: 16px;
+color: orange;
+}
+.aa p{
+    font-size: 14px;
+    color: var(--green);
+}
+h6{
+font-size: 12px;
+margin-right: -4rem;
+}
+.bbtn{
+    background-color: white;
+    width: auto;
+    padding: 1rem;
+    border: 1px solid var(--green);
+    border-radius: 2rem;
+}
+.hh h2{
+    font-size: 30px;
+    color: var(--green);
+    margin-top: 4rem;
+    margin-left: 40rem;
+}
+.hh span{
+    color: orange;
+   
+}
+.hh p{
+    color: black;
+    font-size: 16px;
+    margin-inline: 6rem;
+}
+.section3{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-top: 4rem;
+    margin-left: 8rem;
+}
+.menu1{
+    background-color: white;
+    color: var(--black);
+    width: 200px;
+    height: 300px;
+    position: relative;
+    box-shadow: var(--box-shadow);
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    padding: 8px 8px;
+    text-align: center;
+   
+}
+.menu1 h4{
+    font-size: 20px;
+}
+.menu1 p{
+    color: rgb(129, 126, 126);
+    font-size: 16px;
+}
+.menu1 img{
+    width: 174px;
+    height: 300px;
+}
+.menu1 a{
+font-size: 16px;
+}
+.btn{
+    margin-top: 9rem;
+    width: 100%;
+    height: auto;
+    padding: 4px 4px;
+    text-align: center;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+}
+h3{
+    font-size:30px;
+    color: var(--black);
+}
+h3 span{
+    color: var(--red);
+}
+
+.product1{
+    background-color: white;
+    color: var(--black);
+    width: 200px;
+    height: 260px;
+    position: relative;
+    box-shadow: var(--box-shadow);
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    padding: 8px 8px;
+    text-align: center;
+}
+.prod11{
+    float: left;
+}
+.product1 span{
+    background-color:orange;
+    font-size: 16px;
+}
+.product1 img{
+    width: 210px;
+    height: 200px;
+}
+.product1 h4{
+    font-size: 22px;
+}
+.product1 p{
+    font-size: 16px;
+}
+#box{
+    width: 60px;
+    height: 5px;
+    background-color: white;
+    color: black;
+    text-align: left;
+}
+.product1 a{
+    font-size: 16px;
+}
+
+footer{
+    background-color: var(--green);
+    width: 100%;
+    height: 400px;
+margin-top: 4rem;
+position: relative;
+display: flex;
+gap: 1rem;
+}
+footer p{
+    font-size: 16px;
+    color: white;
+}
+footer img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.nizzle{
+    margin-inline: 4rem;
+}
+.nizzle span{
+    color: orange;
+    font-weight: bold;
+}
+.container{
+    width: 700px;
+    height: 400px;
+    background-color: var(--green);
+    position: absolute;
+    left: 20%;
+    margin-top: -10rem;
+}
+.nizzles{
+    display: flex;
+    flex-direction: column;
+}
+.container2{
+    background-color: rgb(6, 177, 6);
+    width: 92%;
+    position: absolute;
+    top: 8rem;
+    height: 300px;
+    left: 5%;
+    right: 5%;
+   
+}
+.command{
+    display: flex;
+    gap: 4rem;
+    margin-top: 22rem;
+    margin-left: 2rem;
+}
+.foot1 h4{
+    font-size: 18px;
+    color: black;
+}
+.foot1 p{
+    font-size: 14px;
+    color: white;
+}
+#email{
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    padding: 2px;
+}
+.nextt{
+    font-size: 14px;
+    width: 100px;
+    height: 20px;
+    padding: 2px 2px;
+    color: white;
+    background-color: orange;
+    text-align: center;
+    text-decoration: none;
+}
+.container1{
+    background-color: rgb(252, 249, 249);
+    display: flex;
+    color: black;
+    width: 550px;
+    height: 200px;
+    border-radius: 10px 10px;
+    position: absolute;
+    left: 10%;
+    top: 4rem;
+    gap: 4rem;
+    
+}
+.taste{
+    margin-top:40px;
+    padding: 1rem;
+}
+.taste h4{
+    color: black;
+    font-size: 22px;
+   padding: 1rem;
+}
+.taste p{
+    font-size: 14px;
+    padding: 1.2rem;
+}
+.taste .redbtn{
+margin-left: 1rem;
+}
+.conimg img{
+    width: 200px;
+    height: 200px;
+}
+.conimg{
+    
+}
+
+@media  screen and (max-width:600px) and (orientation:landscape) {
+    header{
+      
+        padding: 10px 10px;
+        width: 100%;
+        height: auto;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        gap: 10%;
+        align-items: center;
+        align-content: center;
+     
+       
+    }
+    
+    header img{
+        width: 80px;
+        height: 40px;
+    }
+    .nav{
+        gap: 2px;
+        font-size: 14px;
+        margin-left: 80px;
+        display: flex;
+        flex-direction: column;
+      
+    }
+    
+    .nav a {
+        color: black;
+    }
+    .redbtn{
+        background-color: rgb(55, 224, 55);
+        width: 100px;
+        height: auto;
+        padding: 4px 4px;
+        text-align: center;
+        color: white;
+        font-size: 14px;
+    }
+    
+    .nav1{
+        width: 68%;
+        height: 10%;
+        border: 4px solid var(--green);
+        border-radius: 10px 10px;
+        background-color: white;
+        color: black;
+    }
+    .food{
+        display: flex;
+        flex-direction: column;
+        gap: 10rem;
+        margin-inline: 8rem;
+        margin-top: 8rem;
+    }
+    .section2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-inline: 10rem;
+        background-color: white;
+        box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+        border-radius: 10rem;
+        padding: 2rem;
+        gap: 4rem;
+        
+     
+    }
+    footer{
+        background-color:orange;
+        width: 100%;
+        height: 400px;
+    margin-top: 20rem;
+    position: relative;
+    }
+    .container{
+        width: 80%;
+        height: 50%;
+        background-color: var(--green);
+        position: absolute;
+        left: 20%;
+        margin-top: -10rem;
+    }
+    .container2{
+        background-color: rgb(6, 177, 6);
+        width: 92%;
+        position: absolute;
+        top: 8rem;
+        height: 300px;
+        left: 5%;
+        right: 5%;
+       
+    }
+    .command{
+        display: flex;
+        flex-direction: row;
+        gap: 4rem;
+        margin-top: 22rem;
+        margin-left: 2rem;
+    }
+    .foot1 h4{
+        font-size: 18px;
+        color: black;
+    }
+    .foot1 p{
+        font-size: 14px;
+        color: white;
+    }
+    #email{
+        width: 100px;
+        height: 30px;
+        border: 1px solid black;
+        margin-top: 1.2rem;
+        margin-bottom: 1.2rem;
+        padding: 2px;
+    }
+    .nextt{
+        font-size: 14px;
+        width: 100px;
+        height: 20px;
+        padding: 2px 2px;
+        color: white;
+        background-color: orange;
+        text-align: center;
+        text-decoration: none;
+    }
+    .container1{
+        background-color: rgb(252, 249, 249);
+        display: flex;
+        color: black;
+        width: 550px;
+        height: 200px;
+        border-radius: 10px 10px;
+        position: absolute;
+        left: 10%;
+        top: 4rem;
+        gap: 4rem;
+        
+    }
+    .taste{
+        margin-top:40px;
+        padding: 1rem;
+    }
+    .taste h4{
+        color: black;
+        font-size: 22px;
+       padding: 1rem;
+    }
+    .taste p{
+        font-size: 14px;
+        padding: 1.2rem;
+    }
+    .taste .redbtn{
+    margin-left: 1rem;
+    }
+    .conimg img{
+        width: 200px;
+        height: 200px;
+    }
+    .conimg{
+        
+    }
+}
